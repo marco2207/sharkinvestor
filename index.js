@@ -2,7 +2,7 @@ const express = require('express')
 var path = require('path');
 const app = express();
 const yahooFinance = require('yahoo-finance');
-const port = 3000;
+const PORT = process.env.PORT || 5000
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
