@@ -1,7 +1,7 @@
 {
   "name": "Start on Heroku: Node.js",
   "description": "sharkInvestor App with NodeJS and Bootsrap",
-  "repository": "https://github.com/marco2207/sharkinvestor.git",
+  "repository": "https://github.com/marco2207/sharkinvestor",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
   "keywords": ["node", "express", "heroku"],
   "image": "heroku/nodejs"
