@@ -37,7 +37,7 @@ router.get('/', function(req, res){
 
     
     // Get first day of the month for previous 10 (api use this for the closure on last day of the month)
-    for (i = 0; i < 10; i++) {
+    for (i = 9; i >= 0; i--) {
         var startdate = moment();
         startdate = startdate.endOf('month');
         startdate = startdate.subtract(i + 1, "months");
