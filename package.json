@@ -24,6 +24,6 @@
     "heroku",
     "express"
   ],
-  "license": "MIT".
+  "license": "MIT",
   "author": "MD"
 }
