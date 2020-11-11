@@ -38,4 +38,4 @@ app.use('/ticker/:ticknum/mm10', function (req, res, next) {
 }, tickerMM10);
 
 
-app.listen(port, () => console.log(`MasterEJS app Started on port ${port}!`));
+app.listen(PORT, () => console.log(`SharkInvestor app Started on port ${PORT}!`));
