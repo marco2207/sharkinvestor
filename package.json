@@ -9,22 +9,21 @@
   "scripts": {
     "start": "node index.js"
   },
+   "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "yahoo-finance": "^0.3.6"
+  }
   "repository": {
     "type": "git",
-    "url": "https://github.com/marco2207/sharkinvestor.git"
+    "url": "https://github.com/marco2207/sharkinvestor"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
   ],
-  "license": "MIT"
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "yahoo-finance": "^0.3.6"
-  }
+  "license": "MIT".
+  "author": "MD"
 }
